@@ -34,7 +34,7 @@ function Contact(){
                 <div className="text-center text-5xl font-bold">
                     Contact
                 </div>
-                <motion.div initial={{opacity: 0, translateY: "100%"}} whileInView={{opacity: 1, translateY: 0}} transition={{duration: 1, type: "spring"}} className="mt-5 flex md:flex-row flex-col items-center justify-center w-full gap-x-10 py-24">
+                <motion.div initial={{opacity: 0, translateY: "100%"}} whileInView={{opacity: 1, translateY: 0}} transition={{duration: 1, type: "spring"}} className="mt-5 flex md:flex-row flex-col items-center justify-center w-full gap-10 py-24">
                   {contacts.map(contact=>{
                     return (
                         <a href={contact.link} target="_blank" className="border border-1 rounded-full p-1 flex flex-col w-32 h-32 shadow-md items-center justify-center" key={contact.name}>
