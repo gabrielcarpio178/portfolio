@@ -45,7 +45,7 @@ import YoutubeMp3Downloader from "./../images/project-img/youtubeMp3Dwonloadv2.p
 import Phpimg from "./../icons/php.png"
 import Htmlimg from "./../icons/html.svg"
 import TailwindImg from "./../icons/tailwind.svg"
-import { ReactComponent as VueIcon } from './../icons/Vuejs.svg';
+import { ReactComponent as VueIcon } from './../icons/vuejs.svg';
 import Mysqlimg from "./../icons/mysql.svg"
 import Nodejs from "./../icons/nodejs.svg"
 import LaravelImg from "./../icons/laravel.svg"
